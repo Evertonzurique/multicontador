@@ -123,6 +123,20 @@
             <button class="incrementar" onclick="alterarContador(5, 1)">mais</button>
             <button class="decrementar" onclick="alterarContador(5, -1)">menos</button>
         </section>
+        <!-- Contador 6 -->
+        <section>
+            <h1>Contador 6</h1>
+            <p id="contador6">0</p>
+            <button class="incrementar" onclick="alterarContador(6, 1)">mais</button>
+            <button class="decrementar" onclick="alterarContador(6, -1)">menos</button>
+        </section>
+        <!-- Contador 7 -->
+        <section>
+            <h1>Contador 7</h1>
+            <p id="contador7">0</p>
+            <button class="incrementar" onclick="alterarContador(7, 1)">mais</button>
+            <button class="decrementar" onclick="alterarContador(7, -1)">menos</button>
+        </section>
     </div>
    
     <script>
@@ -132,7 +146,9 @@
             2: 0,
             3: 0,
             4: 0,
-            5: 0
+            5: 0,
+            6: 0,
+            7: 0
         };
         
         // Função para alterar o valor do contador
@@ -149,7 +165,7 @@
         
         // Inicializa todos os contadores
         function inicializarContadores() {
-            for (let i = 1; i <= 5; i++) {
+            for (let i = 1; i <= 7; i++) {
                 atualizarContador(i);
             }
         }
